@@ -1,0 +1,22 @@
+apiVersion: v1
+entries:
+  archivesspace:
+  - apiVersion: v1
+    appVersion: 2.7.0
+    created: "2019-11-07T15:16:52.453174318-06:00"
+    description: ArchivesSpace as a scalable Kubernetes install
+    digest: f46f28eae73954c925d374ad443cd2c4206ab1b5c6278fe8d49a3afea26ba94c
+    keywords:
+    - ArchivesSpace
+    - archives
+    maintainers:
+    - email: tom@shorock.com
+      name: Tom Shorock
+      url: https://shorock.com
+    name: archivesspace
+    sources:
+    - https://gitlab.com/tshorock/archivesspace-k8s
+    urls:
+    - https://shorock.github.io/helm-charts/archivesspace/archivesspace-0.0.1.tgz
+    version: 0.0.1
+generated: "2019-11-07T15:16:52.451327495-06:00"
