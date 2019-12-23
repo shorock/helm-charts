@@ -3,7 +3,37 @@ entries:
   archivesspace:
   - apiVersion: v1
     appVersion: 2.7.0
-    created: "2019-11-07T15:16:52.453174318-06:00"
+    created: "2019-12-23T13:48:23.665791824-06:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://kubernetes-charts.storage.googleapis.com
+      version: 6.*
+    description: Built for archives by archivists, ArchivesSpace is the open source
+      archives information management application for managing and providing web access
+      to archives, manuscripts and digital objects.
+    digest: dbcbdd90c8ec1a3e2d2b69f1c2b0bf116cfd2e624a596000565d5f3421fbffd1
+    keywords:
+    - ArchivesSpace
+    - archives
+    maintainers:
+    - email: tom@shorock.com
+      name: Tom Shorock
+      url: https://shorock.com
+    name: archivesspace
+    sources:
+    - https://gitlab.com/tshorock/archivesspace-k8s
+    urls:
+    - archivesspace/archivesspace-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v1
+    appVersion: 2.7.0
+    created: "2019-12-23T13:48:23.662410521-06:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://kubernetes-charts.storage.googleapis.com
+      version: 6.*
     description: ArchivesSpace as a scalable Kubernetes install
     digest: f46f28eae73954c925d374ad443cd2c4206ab1b5c6278fe8d49a3afea26ba94c
     keywords:
@@ -17,6 +47,6 @@ entries:
     sources:
     - https://gitlab.com/tshorock/archivesspace-k8s
     urls:
-    - https://shorock.github.io/helm-charts/archivesspace/archivesspace-0.0.1.tgz
+    - archivesspace/archivesspace-0.0.1.tgz
     version: 0.0.1
-generated: "2019-11-07T15:16:52.451327495-06:00"
+generated: "2019-12-23T13:48:23.657998851-06:00"
